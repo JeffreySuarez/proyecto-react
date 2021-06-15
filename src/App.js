@@ -1,17 +1,17 @@
 import './App.css';
+import {NavBar} from './components/navBar/navBar';
 
 function App() {
 
 
-  const name = 'Pedro'
-
-  const handleClick = ()=> alert('rat')
-
-
   return (
+
+    //Desarrollo del navbar.
+
     <div className="App">
-      <h1>Hola Soy {name}</h1>
-      <button  onClick={handleClick}>Hacer Click</button>
+      <h1>CREACIONES MAFRA</h1>
+      <NavBar/>
+      <h2>!Ofertas de las semana¡</h2>
       
     </div>
   );
