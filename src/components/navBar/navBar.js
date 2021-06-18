@@ -1,5 +1,7 @@
 
 import './navBar.css'
+import {Card} from '../CartWidget/cartWidget'
+
 export const NavBar = () => {
     return(
         <nav className="navContainer">
@@ -12,7 +14,11 @@ export const NavBar = () => {
                 <li>Accesorios</li>
                 <li className="masVendido">Lo mas vendido</li>
                 <li className="sale">SALE</li>
+                
             </ul>
+           
+            <Card/>
+          
 
         </nav>
     )
