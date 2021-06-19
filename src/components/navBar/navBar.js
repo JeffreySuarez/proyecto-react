@@ -14,10 +14,10 @@ export const NavBar = () => {
                 <li>Accesorios</li>
                 <li className="masVendido">Lo mas vendido</li>
                 <li className="sale">SALE</li>
-                
+                <Card/>
             </ul>
            
-            <Card/>
+        
           
 
         </nav>
