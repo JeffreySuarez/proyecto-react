@@ -1,6 +1,6 @@
 import './App.css';
 import {NavBar} from './components/navBar/navBar';
-import {Items} from './components/ItemListContainer/itemListContainer'
+import {ItemListContainer} from './components/ItemListContainer/itemListContainer'
 
 function App() {
  
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <h1>CREACIONES MAFRA</h1>
       <NavBar/>
-      <Items text={texto}/>
+      <ItemListContainer greeting={texto}/>
   
       <h2>!Ofertas de las semana¡</h2>
       

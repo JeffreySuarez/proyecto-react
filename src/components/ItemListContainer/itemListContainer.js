@@ -1,11 +1,11 @@
 import React from 'react'
 
 
-export const Items = ({text}) => {
+export const ItemListContainer = ({greeting}) => {
 
     return(
         <div>
-          <p>{text}</p>        
+          <p>{greeting}</p>        
         </div>
     )
 }
