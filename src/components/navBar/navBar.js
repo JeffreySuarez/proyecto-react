@@ -1,8 +1,10 @@
 
 import './navBar.css'
 import {Card} from '../CartWidget/cartWidget'
+import { Display } from '../ItemCount/Display/display'
 
-export const NavBar = () => {
+export const NavBar = (props) => {
+
     return(
         <nav className="navContainer">
             <ul>
@@ -15,6 +17,7 @@ export const NavBar = () => {
                 <li className="masVendido">Lo mas vendido</li>
                 <li className="sale">SALE</li>
                 <Card/>
+                <Display counter = {props.counter} exceeded = {props.exceed}/>
             </ul>
            
         
