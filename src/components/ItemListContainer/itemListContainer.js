@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 
 import { ItemCount } from '../ItemCount/itemCount'
+import { ItemsList } from '../itemList/itemList'
 
 
 export const ItemListContainer = ({greeting}) => {
@@ -67,6 +68,7 @@ export const ItemListContainer = ({greeting}) => {
 
       </div>
         
+        <ItemsList/>
          
     </div>
     )
