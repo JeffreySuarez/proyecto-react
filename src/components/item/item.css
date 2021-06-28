@@ -9,3 +9,10 @@
     width: 300px;
     width: 300px;
 }
+
+.catalogo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ 
+}

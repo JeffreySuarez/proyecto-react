@@ -18,6 +18,7 @@ export const NavBar = (props) => {
                 <li className="sale">SALE</li>
                 <Card/>
                 
+                
             </ul>
            
         
