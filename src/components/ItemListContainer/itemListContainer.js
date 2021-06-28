@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 
 import { ItemCount } from '../ItemCount/itemCount'
-import {ItemList} from '../itemList/itemList'
+import { ItemList } from '../itemList/itemList'
 
 import './itemListContainer.css'
 
@@ -37,7 +37,7 @@ export const ItemListContainer = ({greeting}) => {
 
     useEffect(() => {
         
-        const newPromes = new Promise((res)=>{
+        const nuevaPromesa = new Promise((res)=>{
             setTimeout(() =>{
                 res(prod)
             },2000)
