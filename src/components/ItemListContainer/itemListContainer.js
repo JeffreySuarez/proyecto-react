@@ -10,7 +10,7 @@ import './itemListContainer.css'
 export const ItemListContainer = ({greeting}) => {
 
 
-    const [listado, setListado] = useState(undefined);
+    const [listado, setListado] = useState([]);
 
 
     const prod = [{
