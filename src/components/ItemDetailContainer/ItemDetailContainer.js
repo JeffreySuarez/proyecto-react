@@ -1,9 +1,12 @@
 
 
 import React, { useEffect, useState } from 'react'
+import { useParams } from 'react-router'
 import { ItemDetail } from '../ItemDetail/itemDetail'
 
 export const ItemDetailContainer = () => {
+
+    const {id} = useParams()
 
     const [item, setItem] = useState([])
 
