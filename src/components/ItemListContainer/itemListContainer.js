@@ -46,7 +46,7 @@ export const ItemListContainer = ({greeting}) => {
         
         const nuevaPromesa = new Promise((res)=>{
             setTimeout(() =>{
-                res(prod.filter(item => item.categoryId === id))
+                res(prod)
             },2000)
         })
         .then((res) => {
